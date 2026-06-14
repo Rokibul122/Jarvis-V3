@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background: radial-gradient(circle, #001f1f, black);
+  color: cyan;
+  font-family: Arial;
+  text-align: center;
+}
+
+.hud {
+  margin-top: 100px;
+}
+
+#screen {
+  margin: 30px auto;
+  width: 80%;
+  height: 200px;
+  border: 2px solid cyan;
+  padding: 20px;
+  box-shadow: 0 0 20px cyan;
+}
+
+button {
+  padding: 12px 25px;
+  background: cyan;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
