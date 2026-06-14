@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>JARVIS v3</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>JARVIS AI</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="hud">
-  <h1>JARVIS AI SYSTEM</h1>
+<div class="container">
+    <h1>J.A.R.V.I.S</h1>
 
-  <div id="screen">System Ready...</div>
+    <div id="output">Say something...</div>
 
-  <button onclick="startJarvis()">ACTIVATE JARVIS</button>
+    <button onclick="startListening()">🎤 Talk to Jarvis</button>
 </div>
 
 <script src="script.js"></script>
+
 </body>
 </html>
